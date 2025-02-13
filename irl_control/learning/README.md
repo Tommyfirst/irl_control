@@ -13,10 +13,14 @@ After creating the new environment, please activate it with
 conda activate bimanual
 ```
 
+由于运行此il需要mujoco-py 图形渲染，若huxian
+
+
+
+
 Collecting data can be accomplished with the following command, collecting a single demonstration in the _data/BIP_ directory:
 ```
 python collect_data.py
-```
 
 Training and subsequently evaluating the BIP, run the following command:
 ```
